@@ -1,4 +1,4 @@
-package com.example.pets;
+package com.petsclues.petclues;
 
 import org.junit.Test;
 

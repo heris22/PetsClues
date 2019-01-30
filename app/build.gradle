@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId 'com.petsclues.petclues'

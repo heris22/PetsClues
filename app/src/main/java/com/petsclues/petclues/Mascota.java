@@ -1,4 +1,4 @@
-package com.example.pets;
+package com.petsclues.petclues;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

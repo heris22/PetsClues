@@ -1,13 +1,13 @@
-package com.example.pets;
+package com.petsclues.petclues;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Configuracion extends AppCompatActivity {
+public class Maps extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_configuracion);
+        setContentView(R.layout.activity_maps);
     }
 }

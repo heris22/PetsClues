@@ -1,13 +1,13 @@
-package com.example.pets;
+package com.petsclues.petclues;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Perfil extends AppCompatActivity {
+public class RegisPet extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+        setContentView(R.layout.activity_regis_pet);
     }
 }
