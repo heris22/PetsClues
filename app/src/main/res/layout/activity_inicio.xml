@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#F9D9BA"
         tools:context=".Inicio">
 
@@ -24,17 +24,19 @@
                 android:id="@+id/imageButtonPerfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="#F9D9BA"
-                app:srcCompat="@drawable/icono03"
-                android:layout_weight="1"/>
+                android:onClick="perfil"
+                app:srcCompat="@drawable/icono03" />
 
             <ImageButton
                 android:id="@+id/imageButtonMas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="#F9D9BA"
-                app:srcCompat="@drawable/icono06"
-                android:layout_weight="1"/>
+                android:onClick="mascota"
+                app:srcCompat="@drawable/icono06" />
 
         </android.support.v7.widget.LinearLayoutCompat>
 
@@ -65,15 +67,91 @@
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButtonQr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F9D9BA"
+                android:onClick="codigo"
+                app:srcCompat="@drawable/icono04" />
+
+            <ImageButton
+                android:id="@+id/imageButtonMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F9D9BA"
+                android:onClick="rastreo"
+                app:srcCompat="@drawable/icono05" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:weightSum="2"
             android:layout_marginTop="10dp">
 
+            <TextView
+                android:id="@+id/textViewwQrM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Código Qr"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textViewMapcM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rastreo"
+                android:gravity="center"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButtonConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F9D9BA"
+                android:onClick="configuracion"
+                app:srcCompat="@drawable/icono07" />
 
 
         </android.support.v7.widget.LinearLayoutCompat>
 
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewwConfM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Configuración"
+                android:gravity="center"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
 
 
 
