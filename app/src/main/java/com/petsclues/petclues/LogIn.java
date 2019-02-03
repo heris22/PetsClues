@@ -31,7 +31,7 @@ public class LogIn extends AppCompatActivity {
 
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
         editEmail = (EditText) findViewById(R.id.txtEmail);
-        editContra = (EditText)  findViewById(R.id.txtContra);
+        editContra = (EditText)  findViewById(R.id.txtPass);
         firebaseAuth = FirebaseAuth.getInstance();
 
         authStateListener = new FirebaseAuth.AuthStateListener() {

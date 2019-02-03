@@ -52,16 +52,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Perfil"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="@string/perfil" />
 
             <TextView
                 android:id="@+id/textViewMascM"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Mascota"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="@string/mascota" />
 
         </android.support.v7.widget.LinearLayoutCompat>
 
@@ -104,54 +104,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Código Qr"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="@string/cod" />
 
             <TextView
                 android:id="@+id/textViewMapcM"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Rastreo"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="@string/rastreo" />
 
         </android.support.v7.widget.LinearLayoutCompat>
 
-        <android.support.v7.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingTop="40dp"
-            android:weightSum="2">
 
-            <ImageButton
-                android:id="@+id/imageButtonConf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#F9D9BA"
-                android:onClick="configuracion"
-                app:srcCompat="@drawable/icono07" />
-
-
-        </android.support.v7.widget.LinearLayoutCompat>
-
-        <android.support.v7.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="2"
-            android:layout_marginTop="10dp">
-
-            <TextView
-                android:id="@+id/textViewwConfM"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Configuración"
-                android:gravity="center"/>
-
-        </android.support.v7.widget.LinearLayoutCompat>
 
 
 

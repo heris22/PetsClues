@@ -3,47 +3,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="#F9D9BA"
     tools:context=".CQr">
 
-    <android.support.constraint.ConstraintLayout
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="Escanee el codigo Qr"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6"
-            app:layout_constraintVertical_bias="0.175" />
+            android:orientation="horizontal"
+            android:paddingTop="80dp"
+            android:weightSum="1">
 
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="225dp"
-            android:layout_height="225dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/sym_def_app_icon" />
+            <TextView
+                android:id="@+id/textViewTras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tpr"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
-    </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="40dp"
+                android:weightSum="1">
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/sym_def_app_icon"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
 
 
-
+    </android.support.v7.widget.LinearLayoutCompat>
 </android.widget.RelativeLayout>

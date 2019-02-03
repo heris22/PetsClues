@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Pets</string>
+    <string name="nombreuser">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="direccion">Dirección</string>
+    <string name="email">Email</string>
+    <string name="clave">Contraseña</string>
+    <string name="isesion">Iniciar Sesión</string>
+    <string name="registrar">Registrar</string>
+    <string name="invitado">Invitado</string>
+    <string name="perfil">Profile</string>
+    <string name="mascota">Mascota</string>
+    <string name="cod">Código Qr</string>
+    <string name="rastreo">Rastreo</string>
+    <string name="tpr">Escanee el codigo Qr</string>
+
 </resources>

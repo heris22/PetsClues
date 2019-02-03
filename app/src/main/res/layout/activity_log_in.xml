@@ -65,7 +65,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
 
         <EditText
-            android:id="@+id/txtContra"
+            android:id="@+id/txtPass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -127,7 +127,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.148"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtContra" />
+            app:layout_constraintTop_toBottomOf="@+id/txtPass" />
 
         <EditText
             android:id="@+id/editText8"

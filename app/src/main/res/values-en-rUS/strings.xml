@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pets</string>
+    <string name="nombreuser">Name</string>
+    <string name="telefono">Phone</string>
+    <string name="direccion">Address</string>
+    <string name="email">Email</string>
+    <string name="clave">Password</string>
+    <string name="isesion">Log in</string>
+    <string name="registrar">Sign Up</string>
+    <string name="invitado">Guest</string>
+    <string name="perfil">Perfil</string>
+    <string name="mascota">Pets</string>
+    <string name="cod">Qr Code</string>
+    <string name="rastreo">Tracking</string>
+    <string name="tpr">Scan the Qr code</string>
+</resources>
