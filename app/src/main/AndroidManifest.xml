@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.petsclues.petclues">
+    package="com.mypetsclues.mypetsclues">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.petsclues.petclues.Configuracion"></activity>
-        <activity android:name="com.petsclues.petclues.RegisPet" />
-        <activity android:name="com.petsclues.petclues.Maps" />
-        <activity android:name="com.petsclues.petclues.Mascota" />
-        <activity android:name="com.petsclues.petclues.Perfil" />
-        <activity android:name="com.petsclues.petclues.CQr" />
-        <activity android:name="com.petsclues.petclues.Inicio" />
-        <activity android:name="com.petsclues.petclues.LogIn" />
-        <activity android:name="com.petsclues.petclues.MainActivity">
+        <activity android:name="com.mypetsclues.mypetsclues.Configuracion"></activity>
+        <activity android:name="com.mypetsclues.mypetsclues.RegisPet" />
+        <activity android:name="com.mypetsclues.mypetsclues.Maps" />
+        <activity android:name="com.mypetsclues.mypetsclues.Mascota" />
+        <activity android:name="com.mypetsclues.mypetsclues.Perfil" />
+        <activity android:name="com.mypetsclues.mypetsclues.CQr" />
+        <activity android:name="com.mypetsclues.mypetsclues.Inicio" />
+        <activity android:name="com.mypetsclues.mypetsclues.LogIn" />
+        <activity android:name="com.mypetsclues.mypetsclues.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

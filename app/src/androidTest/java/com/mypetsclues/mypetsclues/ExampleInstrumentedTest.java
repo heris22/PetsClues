@@ -1,4 +1,4 @@
-package com.petsclues.petclues;
+package com.mypetsclues.mypetsclues;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

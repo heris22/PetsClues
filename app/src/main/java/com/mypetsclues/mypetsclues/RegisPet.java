@@ -1,13 +1,13 @@
-package com.petsclues.petclues;
+package com.mypetsclues.mypetsclues;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CQr extends AppCompatActivity {
+public class RegisPet extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cqr);
+        setContentView(R.layout.activity_regis_pet);
     }
 }

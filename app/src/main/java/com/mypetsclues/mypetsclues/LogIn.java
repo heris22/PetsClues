@@ -1,4 +1,4 @@
-package com.petsclues.petclues;
+package com.mypetsclues.mypetsclues;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
