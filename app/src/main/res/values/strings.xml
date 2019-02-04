@@ -13,5 +13,5 @@
     <string name="cod">Código Qr</string>
     <string name="rastreo">Rastreo</string>
     <string name="tpr">Escanee el codigo Qr</string>
-
+    <string name="propietariopr">Propietario</string>
 </resources>
