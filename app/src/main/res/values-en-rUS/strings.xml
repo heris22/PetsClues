@@ -6,6 +6,8 @@
     <string name="direccion">Address</string>
     <string name="email">Email</string>
     <string name="clave">Password</string>
+    <string name="cclave">Confirm Password</string>
+    <string name="usua">User</string>
     <string name="isesion">Log in</string>
     <string name="registrar">Sign Up</string>
     <string name="invitado">Guest</string>
@@ -15,4 +17,11 @@
     <string name="rastreo">Tracking</string>
     <string name="tpr">Scan the Qr code</string>
     <string name="propietariopr">Owner</string>
+    <string name="tpm">My Pet</string>
+    <string name="raza">Breed</string>
+    <string name="edad">Age</string>
+    <string name="repm">Register Pet</string>
+    <string name="nprm">New Pet</string>
+    <string name="imagenm">Image</string>
+    <string name="newuser">New user</string>
 </resources>

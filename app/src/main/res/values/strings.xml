@@ -5,6 +5,8 @@
     <string name="direccion">Dirección</string>
     <string name="email">Email</string>
     <string name="clave">Contraseña</string>
+    <string name="cclave">Confirmar Contraseña</string>
+    <string name="usua">Usuario</string>
     <string name="isesion">Iniciar Sesión</string>
     <string name="registrar">Registrar</string>
     <string name="invitado">Invitado</string>
@@ -14,4 +16,11 @@
     <string name="rastreo">Rastreo</string>
     <string name="tpr">Escanee el codigo Qr</string>
     <string name="propietariopr">Propietario</string>
+    <string name="tpm">Mi Mascota</string>
+    <string name="raza">Raza</string>
+    <string name="edad">Edad</string>
+    <string name="repm">Registrar mascota</string>
+    <string name="nprm">Nueva mascota</string>
+    <string name="imagenm">Imagen</string>
+    <string name="newuser">Nuevo usuario</string>
 </resources>
